@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1745b8c0-e49d-48c1-a65e-221a90b58b6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/uqam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main/BonusSalaryRaise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main/Enterprise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BonusSalaryRaise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployesApresCalculs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Enterprise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/bataille navale.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/BatNav2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/BatailleFake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/BatailleReal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Bateau2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Batnav.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Batnav3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Batnav5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Batnav6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Grandeur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/JeuBatailleNavale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Pep8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/RestOfBatailleFake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Tableau.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/BatNav2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/BatailleFake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/BatailleReal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Bateau2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Batnav.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Batnav3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Batnav5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Batnav6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Grandeur.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/JeuBatailleNavale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/META-INF/bataille navale.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Pep8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Tableau.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Chaines.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Chaines.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Composantes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Composantes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/CopyOfComposantes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Directs.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Directs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Engrenages.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Engrenages.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Essieux.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Essieux.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Liens.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Liens.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/ResultatTests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Vis.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Vis.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/constantes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/dummy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/emptyfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/fichier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/maintp1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/maintp1.cpp.save" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/readfile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/rubbish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/tests.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp2/TP2.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp2/tp2ete2020.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session hiver 2020/INF3080 base de donnees/fatiha note de cours /tp1/1. Script_BD.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session hiver 2020/INF3080 base de donnees/fatiha note de cours /tp1/TP1_INF3080_H2020.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h0PlIF5FaRHT2zW52DClBhULUf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main" />
+      <recent name="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Enterprise">
+    <configuration name="Enterprise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Enterprise" />
+      <module name="Employe Bonus Salary" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <module name="Employe Bonus Salary" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Principal" />
+      <module name="Employe Bonus Salary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test in Employe Bonus Salary" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Employe Bonus Salary" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.Enterprise" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1745b8c0-e49d-48c1-a65e-221a90b58b6c" name="Default Changelist" comment="" />
+      <created>1599145185638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599145185638</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="103" width="811" height="669" key="#Project_Structure" timestamp="1607958851926">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="320" y="103" width="811" height="669" key="#Project_Structure/0.23.1440.829@0.23.1440.829" timestamp="1607958851926" />
+    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607958888921">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.829@0.23.1440.829" timestamp="1607958888921" />
+    <state x="458" y="220" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599585148364">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="458" y="220" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.830@0.23.1440.830" timestamp="1599585148364" />
+    <state x="444" y="304" width="552" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607958705507">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="444" y="304" width="552" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.829@0.23.1440.829" timestamp="1607958705507" />
+    <state x="286" y="75" key="#test_in_Employe_Bonus_Salary" timestamp="1599583339476">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="286" y="75" key="#test_in_Employe_Bonus_Salary/0.23.1440.830@0.23.1440.830" timestamp="1599583339476" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1607958929835">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1607958929835" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1599585565002" />
+    <state width="1398" height="265" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1599757049387" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1607958929834">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1607958929834" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1599585565002" />
+    <state width="1398" height="265" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1599757049387" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1607958929834">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1607958929834" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1599585565001" />
+    <state width="1398" height="265" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1599757049386" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1607958929834">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1607958929834" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1599585565002" />
+    <state width="1398" height="265" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1599757049387" />
+    <state x="208" y="23" width="1024" height="830" key="SettingsEditor" timestamp="1599757039778">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="208" y="23" width="1024" height="830" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1599584722517" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1599757039778" />
+    <state x="397" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1599577845800">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="397" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1599577845800" />
+    <state x="424" y="339" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599582974567">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="424" y="339" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.830@0.23.1440.830" timestamp="1599582974567" />
+    <state x="499" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599585150709">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="499" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.830@0.23.1440.830" timestamp="1599585150709" />
+    <state x="97" y="60" key="new project wizard" timestamp="1599585945518">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="97" y="60" key="new project wizard/0.23.1440.830@0.23.1440.830" timestamp="1599585945518" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/BonusSalaryRaise.java</url>
+          <line>29</line>
+          <properties class="main.BonusSalaryRaise" method="getBonusRate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/BonusSalaryRaise.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/BonusSalaryRaise.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/BonusSalaryRaise.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
