@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1745b8c0-e49d-48c1-a65e-221a90b58b6c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/uqam.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main/BonusSalaryRaise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main/Enterprise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BonusSalaryRaise.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EmployesApresCalculs.txt" beforeDir="false" />
@@ -126,7 +122,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
@@ -148,10 +144,23 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Enterprise">
+  <component name="RunManager" selected="Application.Principal (1)">
     <configuration name="Enterprise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Enterprise" />
       <module name="Employe Bonus Salary" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Principal" />
+      <module name="EmployeeEnterpriseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,6 +205,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal (1)" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Enterprise" />
       </list>
@@ -214,73 +224,6 @@
       <updated>1599145185638</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="320" y="103" width="811" height="669" key="#Project_Structure" timestamp="1607958851926">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="320" y="103" width="811" height="669" key="#Project_Structure/0.23.1440.829@0.23.1440.829" timestamp="1607958851926" />
-    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607958888921">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.829@0.23.1440.829" timestamp="1607958888921" />
-    <state x="458" y="220" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599585148364">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="458" y="220" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.830@0.23.1440.830" timestamp="1599585148364" />
-    <state x="444" y="304" width="552" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607958705507">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="444" y="304" width="552" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.829@0.23.1440.829" timestamp="1607958705507" />
-    <state x="286" y="75" key="#test_in_Employe_Bonus_Salary" timestamp="1599583339476">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="286" y="75" key="#test_in_Employe_Bonus_Salary/0.23.1440.830@0.23.1440.830" timestamp="1599583339476" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1607958929835">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1607958929835" />
-    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1599585565002" />
-    <state width="1398" height="265" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1599757049387" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1607958929834">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1607958929834" />
-    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1599585565002" />
-    <state width="1398" height="265" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1599757049387" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1607958929834">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1607958929834" />
-    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1599585565001" />
-    <state width="1398" height="265" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1599757049386" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1607958929834">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1607958929834" />
-    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1599585565002" />
-    <state width="1398" height="265" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1599757049387" />
-    <state x="208" y="23" width="1024" height="830" key="SettingsEditor" timestamp="1599757039778">
-      <screen x="0" y="23" width="1440" height="831" />
-    </state>
-    <state x="208" y="23" width="1024" height="830" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1599584722517" />
-    <state x="208" y="23" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1599757039778" />
-    <state x="397" y="270" key="com.intellij.ide.util.TipDialog" timestamp="1599577845800">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="397" y="270" key="com.intellij.ide.util.TipDialog/0.23.1440.830@0.23.1440.830" timestamp="1599577845800" />
-    <state x="424" y="339" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1599582974567">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="424" y="339" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.830@0.23.1440.830" timestamp="1599582974567" />
-    <state x="499" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599585150709">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="499" y="187" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.830@0.23.1440.830" timestamp="1599585150709" />
-    <state x="97" y="60" key="new project wizard" timestamp="1599585945518">
-      <screen x="0" y="23" width="1440" height="830" />
-    </state>
-    <state x="97" y="60" key="new project wizard/0.23.1440.830@0.23.1440.830" timestamp="1599585945518" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
