@@ -1,3 +1,5 @@
+package main;
+
 public class Employee {
     /**
      * Pour chaque employé, vous devez afficher les informations dans l’ordre suivant
@@ -120,5 +122,6 @@ public class Employee {
         System.out.printf("Employee new salary without bonus : %6.2f\n", newSalary);
 
     }
-    
+
 }
+

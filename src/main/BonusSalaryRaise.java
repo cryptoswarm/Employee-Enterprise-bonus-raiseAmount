@@ -1,3 +1,5 @@
+package main;
+
 public class BonusSalaryRaise {
 
     public static String displayPerformanceGradeDescription( char performanceGrade){

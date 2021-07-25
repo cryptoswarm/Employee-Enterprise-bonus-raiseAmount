@@ -1,3 +1,5 @@
+package main;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -215,35 +217,7 @@ public class Principal {
 
         printMsgWelcom();
         printMenu();
-        /*
-        int mainMenuChoice = checkUserChoiceInput();
-        System.out.println("Main menu choice = "+mainMenuChoice);
 
-        String employeeRegistration = checkUserRegistrationNbr();
-        System.out.println("Employe registration nbr = "+ employeeRegistration);
-
-        String lastName = checkEmployeeName(MSG_PROMPT_EMPLOYE_LAST_NAME, MSG_ERR_EMPLOYE_LAST_NAME);
-        System.out.println("Employe last name = "+ lastName );
-
-        String firstName = checkEmployeeName(MSG_PROMPT_EMPLOYE_FIRST_NAME, MSG_ERR_EMPLOYE_FIRST_NAME);
-        System.out.println("Employe first name = "+firstName  );
-
-        int employeeEchelon = checkEmployeeEchelon();
-        System.out.println("Employee echelon = "+employeeEchelon );
-
-        double oldEmployeeSalary = checkEmployeeSalary();
-        System.out.println("Employee salary = "+ oldEmployeeSalary);
-
-        char employeePerformanceGrade = checkEmployeePerformanceGrade();
-        System.out.println("Employee performance grade = "+ employeePerformanceGrade);
-
-        double bonusRate = BonusSalaryRaise.getBonusRate(employeeEchelon, employeePerformanceGrade);
-        System.out.println("Employee bonus rate = "+bonusRate);
-
-        float salaryRateRaise = BonusSalaryRaise.getRateSalaryRaise( employeeEchelon );
-        double newSalaryWithoutBonus = BonusSalaryRaise.getNewSalary(salaryRateRaise, oldEmployeeSalary);
-        System.out.println("New employee salary = "+newSalaryWithoutBonus);
-*/
         Enterprise aCompany = new Enterprise();
         aCompany.readFileOfEmployees();
         while(true){
@@ -254,12 +228,7 @@ public class Principal {
                 aCompany.saveEmployeesInFile();
                 break;
             }else if( choice == 1){
-                /**
-                 * Choix 1 : permet de calculer le bonus et l’augmentation de salaire d’un employé.
-                 * Les données à saisir sont :
-                 * le matricule, le nom, le prénom, l’échelon, le salaire ,
-                 * et la note d’évaluation de la performance.
-                 */
+
                 registration = checkUserRegistrationNbr();
                 lastName = checkEmployeeName(MSG_PROMPT_EMPLOYE_LAST_NAME, MSG_ERR_EMPLOYE_LAST_NAME );
                 firstName =  checkEmployeeName(MSG_PROMPT_EMPLOYE_FIRST_NAME, MSG_ERR_EMPLOYE_FIRST_NAME);
