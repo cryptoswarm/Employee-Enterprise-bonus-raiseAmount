@@ -2,7 +2,12 @@ package Main;
 
 import calculator.BonusSalaryRaise;
 import employee.Employee;
+import employee.IEmployee;
 import enterprise.Enterprise;
+import reader.Extractor;
+import reader.IExtractor;
+import writer.ISaver;
+import writer.Saver;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -222,15 +227,17 @@ public class Principal {
 
         printMsgWelcom();
         printMenu();
+        IExtractor extractor = new Extractor();
+        ISaver saver = new Saver();
 
         Enterprise aCompany = new Enterprise();
-        aCompany.readFileOfEmployees();
+        extractor.readFile();
         while (true) {
 
             int choice = checkUserChoiceInput();
             if (choice == 0) {
                 printQuitMsg();
-                aCompany.saveEmployeesInFile();
+                saver.saveEmployees(aCompany);
                 break;
             } else if (choice == 1) {
 
@@ -241,7 +248,7 @@ public class Principal {
                 currentSalary = checkEmployeeSalary();
                 performanceGrade = checkEmployeePerformanceGrade();
 
-                Employee anEmployee = new Employee(registration, lastName, firstName, echelon, currentSalary, performanceGrade);
+                IEmployee anEmployee = new Employee(registration, lastName, firstName, echelon, currentSalary, performanceGrade);
 
                 anEmployee.setPerformanceDescription(BonusSalaryRaise.displayPerformanceGradeDescription(performanceGrade));
 
@@ -258,8 +265,7 @@ public class Principal {
                 aCompany.addEmployee(anEmployee);
 
             } else if (choice == 2) {
-                aCompany.printAllEmployeesData();
-
+                saver.displayData(aCompany);
             }
 
         }

@@ -91,6 +91,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -129,12 +130,6 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="main" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -142,6 +137,15 @@
       <recent name="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main" />
       <recent name="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="employee" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Principal (1)">
@@ -152,22 +156,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.Principal" />
-      <module name="EmployeeEnterpriseTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <module name="Employe Bonus Salary" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
-      <module name="Employe Bonus Salary" />
+      <option name="MAIN_CLASS_NAME" value="Main.Principal" />
+      <module name="EmployeeEnterpriseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -250,6 +254,11 @@
           <url>file://$PROJECT_DIR$/src/main/BonusSalaryRaise.java</url>
           <line>56</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/Main/Principal.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

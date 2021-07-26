@@ -1,6 +1,6 @@
 package employee;
 
-public class Employee {
+public class Employee implements IEmployee {
     /**
      * Pour chaque employé, vous devez afficher les informations dans l’ordre suivant
      * sur une seule ligne avec une barre oblique (|) comme séparateur :
@@ -119,4 +119,5 @@ public class Employee {
         System.out.printf("Employee new salary without bonus : %6.2f\n", newSalary);
 
     }
+
 }
