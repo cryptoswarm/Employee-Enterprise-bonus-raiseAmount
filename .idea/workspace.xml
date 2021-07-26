@@ -240,6 +240,14 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/Saver.java</url>
+          <line>46</line>
+          <properties class="writer.Saver" method="displayData">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/BonusSalaryRaise.java</url>
           <line>45</line>
@@ -259,6 +267,11 @@
           <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/Main/Principal.java</url>
           <line>239</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/Main/Principal.java</url>
+          <line>267</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
