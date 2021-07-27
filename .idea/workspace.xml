@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1745b8c0-e49d-48c1-a65e-221a90b58b6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/Checker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/Constante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/IChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/manger/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/manger/ICreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeInfoBefore.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/Main/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/Main/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/calculator/BonusSalaryRaise.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/calculator/BonusSalaryRaise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/employee/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/employee/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/employee/IEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/enterprise/Enterprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/enterprise/Enterprise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/reader/Extractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/reader/Extractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/reader/IExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/reader/IExtractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/ISaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/ISaver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/Saver.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/Saver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeesDataAfterEdit" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeesDataAfterEdit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
