@@ -1,6 +1,6 @@
 package employee;
 
-public class Employee {
+public class Employee implements IEmployee {
     /**
      * Pour chaque employé, vous devez afficher les informations dans l’ordre suivant
      * sur une seule ligne avec une barre oblique (|) comme séparateur :
@@ -8,12 +8,12 @@ public class Employee {
      * l'augmentation de salaire
      * et le salaire après augmentation.
      */
-    private  String employeeRegistration;
-    private String employeeLastName;
-    private String employeeFirstName;
-    private int employeeEchelon;
-    private double employeeOldSalary;
-    private char performanceGrade;
+    private final String employeeRegistration;
+    private final String employeeLastName;
+    private final String employeeFirstName;
+    private final int employeeEchelon;
+    private final double employeeOldSalary;
+    private final char performanceGrade;
     private String performanceDescription;
     private float bonusRate;
     private double bonus;
@@ -33,47 +33,59 @@ public class Employee {
     }
 
     public String getEmployeeRegistration(){
+
         return employeeRegistration;
     }
 
     public String getEmployeeLastName(){
+
         return employeeLastName;
     }
     public String getEmployeeFirstName(){
+
         return employeeFirstName;
     }
 
     public int getEmployeeEchelon(){
+
         return employeeEchelon;
     }
 
     public double getEmployeeOldSalary(){
+
         return employeeOldSalary;
     }
 
     public char getPerformanceGrade(){
+
         return performanceGrade;
     }
 
     public String getPerformanceDescription(){
+
         return performanceDescription;
     }
 
     public float getBonusRate(){
+
         return bonusRate;
     }
 
     public double getBonus(){
+
         return bonus;
     }
 
     public float getSalaryRaiseRate(){
+
         return salaryRaiseRate;
     }
     public double getSalaryRaiseAmount(){
+
         return salaryRaiseAmount;
     }
     public double getNewSalary(){
+
         return newSalary;
     }
 
@@ -81,21 +93,26 @@ public class Employee {
         this.performanceDescription = performanceDescription;
     }
     public void setBonusRate(float bonusRate){
+
         this.bonusRate = bonusRate;
     }
 
     public void setBonus(double bonus){
+
         this.bonus = bonus;
     }
 
     public void setSalaryRaiseRate(float salaryRaiseRate){
+
         this.salaryRaiseRate = salaryRaiseRate;
     }
 
     public void setSalaryRaiseAmount(double salaryRaiseAmount){
+
         this.salaryRaiseAmount = salaryRaiseAmount;
     }
     public void setNewSalary(double newSalary){
+
         this.newSalary = newSalary;
     }
 
@@ -119,4 +136,5 @@ public class Employee {
         System.out.printf("Employee new salary without bonus : %6.2f\n", newSalary);
 
     }
+
 }

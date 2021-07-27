@@ -104,6 +104,7 @@ public class BonusSalaryRaise {
      * @return
      */
     public static double getEmployeeBonus( float bonusRate, double oldSalary){
+
         return ( bonusRate/100 ) * oldSalary;
     }
 
