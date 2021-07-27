@@ -5,79 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1745b8c0-e49d-48c1-a65e-221a90b58b6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/uqam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BonusSalaryRaise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployesApresCalculs.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Enterprise.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/bataille navale.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/BatNav2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/BatailleFake.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/BatailleReal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Bateau2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Batnav.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Batnav3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Batnav5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Batnav6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Grandeur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/JeuBatailleNavale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Pep8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/RestOfBatailleFake.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/src/main/java/Tableau.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/BatNav2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/BatailleFake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/BatailleReal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Bateau2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Batnav.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Batnav3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Batnav5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Batnav6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Grandeur.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/JeuBatailleNavale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/META-INF/bataille navale.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Pep8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session automne1 2019/Organisation des ordinateurs et assembleur/bataille navale/target/classes/Tableau.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Chaines.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Chaines.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Composantes.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Composantes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/CopyOfComposantes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Directs.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Directs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Engrenages.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Engrenages.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Essieux.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Essieux.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Liens.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Liens.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/ResultatTests" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Vis.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/Vis.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/constantes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/dummy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/emptyfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/fichier.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/maintp1.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/maintp1.cpp.save" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/readfile.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/rubbish.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp1/tests.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp2/TP2.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session ete 2020/INF3105 structures de donnees et algorithmes/TP/INF3105-tp2/tp2ete2020.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session hiver 2020/INF3080 base de donnees/fatiha note de cours /tp1/1. Script_BD.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../session hiver 2020/INF3080 base de donnees/fatiha note de cours /tp1/TP1_INF3080_H2020.pdf" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/Constante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/IChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/manger/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/manger/ICreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeInfoBefore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/Main/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/Main/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/calculator/BonusSalaryRaise.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/calculator/BonusSalaryRaise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/employee/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/employee/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/employee/IEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/enterprise/Enterprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/enterprise/Enterprise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/reader/Extractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/reader/Extractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/reader/IExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/reader/IExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/ISaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/ISaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/Saver.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/Saver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeesDataAfterEdit" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeesDataAfterEdit" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,11 +80,13 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main" />
       <recent name="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="helpers" />
       <recent name="employee" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -152,6 +100,19 @@
     <configuration name="Enterprise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Enterprise" />
       <module name="Employe Bonus Salary" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Principal" />
+      <module name="EmployeeEnterpriseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,18 +196,10 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/BonusSalaryRaise.java</url>
           <line>29</line>
-          <properties class="main.BonusSalaryRaise" method="getBonusRate">
+          <properties class="main.BonusSalaryRaise">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/Saver.java</url>
-          <line>46</line>
-          <properties class="writer.Saver" method="displayData">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/BonusSalaryRaise.java</url>
@@ -262,16 +215,6 @@
           <url>file://$PROJECT_DIR$/src/main/BonusSalaryRaise.java</url>
           <line>56</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/Main/Principal.java</url>
-          <line>239</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/Main/Principal.java</url>
-          <line>267</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

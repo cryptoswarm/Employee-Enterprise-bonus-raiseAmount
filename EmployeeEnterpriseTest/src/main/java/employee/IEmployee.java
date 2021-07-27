@@ -2,7 +2,7 @@ package employee;
 
 public interface IEmployee {
 
-     String getEmployeeRegistration();
+    String getEmployeeRegistration();
 
     String getEmployeeLastName();
 

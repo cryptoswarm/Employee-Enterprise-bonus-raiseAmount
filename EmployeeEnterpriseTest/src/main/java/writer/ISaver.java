@@ -4,6 +4,6 @@ import enterprise.IEnterprise;
 
 public interface ISaver {
 
-    void saveEmployees(IEnterprise enterprise);
-    void displayData(IEnterprise enterprise);
+    void saveEmployees(IEnterprise enterprise, String dataDestination);
+    void displayData(String dataSource);
 }

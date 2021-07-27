@@ -1,10 +1,9 @@
 package reader;
 
 import calculator.BonusSalaryRaise;
-import employee.Employee;
 import employee.IEmployee;
-import enterprise.Enterprise;
 import enterprise.IEnterprise;
+import manger.ICreator;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -15,15 +14,11 @@ import java.util.List;
 
 public class Extractor implements IExtractor {
 
-    private final IEnterprise enterprise = new Enterprise();
-    private IEmployee employee;
-
     @Override
-    public void readFile() {
+    public void readFile(String fileName, ICreator creator, IEnterprise enterprise) {
 
         try {
-            int i;
-            FileReader fr = new FileReader("employeeInfoBefore.txt");
+            FileReader fr = new FileReader(fileName);
             BufferedReader rd = new BufferedReader(fr);
 
             while (rd.ready()){
@@ -38,7 +33,7 @@ public class Extractor implements IExtractor {
                 double currentSalary = Double.parseDouble( newEmployeeTab.get(4).trim());
                 char performanceGrade = newEmployeeTab.get(5).trim().charAt(0);
 
-                employee = new Employee(registration, lastName, firstName, echelon, currentSalary, performanceGrade);
+                IEmployee employee = creator.createAnEmployee(registration, lastName, firstName, echelon, currentSalary, performanceGrade);
 
                 employee.setPerformanceDescription(BonusSalaryRaise.displayPerformanceGradeDescription(performanceGrade));
                 float bonusRate = BonusSalaryRaise.getBonusRate(echelon, performanceGrade);
