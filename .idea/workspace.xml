@@ -5,7 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1745b8c0-e49d-48c1-a65e-221a90b58b6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/filter/CutomAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/filter/CutomAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/Main/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/calculator/BonusSalaryRaise.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/calculator/BonusSalaryRaise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/employee/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/employee/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/model/IEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/enterprise/Enterprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/enterprise/Enterprise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/enterprise/IEnterprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/enterprise/IEnterprise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/Checker.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/helpers/Checker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/Constante.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/helpers/Constante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/IChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/helpers/IChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/helpers/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/helpers/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/manger/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/manger/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/manger/ICreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/manger/ICreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/reader/Extractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/reader/Extractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/reader/IExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/reader/IExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/ISaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/writer/ISaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/writer/Saver.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/writer/Saver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +77,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
@@ -62,6 +88,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/main" />
       <recent name="$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java" />
@@ -87,11 +114,11 @@
       </method>
     </configuration>
     <configuration name="Principal (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.Principal" />
+      <option name="MAIN_CLASS_NAME" value="com.app.employeeEnterprise.Principal" />
       <module name="EmployeeEnterpriseTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="com.app.employeeEnterprise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +129,19 @@
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
       <module name="Employe Bonus Salary" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.app.employeeEnterprise.Principal" />
+      <module name="EmployeeEnterpriseTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.employeeEnterprise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,6 +223,52 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/controller/EmployeeController.java</url>
+          <line>73</line>
+          <properties class="com.app.employeeEnterprise.controller.EmployeeController" method="addRoleToEmployee">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/filter/CutomAuthenticationFilter.java</url>
+          <line>38</line>
+          <properties class="com.app.employeeEnterprise.filter.CutomAuthenticationFilter" method="attemptAuthentication">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/security/SecurityConfig.java</url>
+          <line>48</line>
+          <properties class="com.app.employeeEnterprise.security.SecurityConfig" method="configure">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/security/SecurityConfig.java</url>
+          <line>68</line>
+          <properties class="com.app.employeeEnterprise.security.SecurityConfig" method="authenticationManagerBean" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/filter/CutomAuthenticationFilter.java</url>
+          <line>33</line>
+          <properties class="com.app.employeeEnterprise.filter.CutomAuthenticationFilter" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/security/SecurityConfig.java</url>
+          <line>37</line>
+          <properties class="com.app.employeeEnterprise.security.SecurityConfig" method="configure">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/BonusSalaryRaise.java</url>
           <line>45</line>
@@ -198,7 +284,21 @@
           <line>56</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/security/SecurityConfig.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.aop.framework.JdkDynamicAopProxy" memberName="proxiedInterfaces" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
