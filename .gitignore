@@ -15,7 +15,7 @@
 # Mac
 .DS_Store
 
-.idea
+.idea/
 *.zip
 *.txt
 
