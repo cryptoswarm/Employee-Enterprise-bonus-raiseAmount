@@ -1,9 +1,9 @@
 package com.app.employeeEnterprise.filter;
 
+import com.app.employeeEnterprise.logging.SL4JLogger;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -25,37 +25,26 @@ import java.util.stream.Collectors;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
-@Slf4j
-public class CutomAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
+public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
     private final AuthenticationManager authenticationManager;
 
     @Autowired
-    public CutomAuthenticationFilter(AuthenticationManager authenticationManager) {
+    public CustomAuthenticationFilter(AuthenticationManager authenticationManager) {
         this.authenticationManager = authenticationManager;
     }
 
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
-<<<<<<< HEAD
-        log.info("AuthenticationManager should be instantiated to {}",authenticationManager.toString());
+
+        SL4JLogger.getLogger().info("AuthenticationManager should be instantiated to {}",authenticationManager.toString());
         String employeeRegistration = request.getParameter("employeeRegistration");
         String password = request.getParameter("password");
-        log.info("Employee registration {} and its password is {}",employeeRegistration, password);
-        log.info("Step 1 : creating an authenticationToken");
+        SL4JLogger.getLogger().info("Employee registration {} and its password is {}",employeeRegistration, password);
+        SL4JLogger.getLogger().info("Step 1 : creating an authenticationToken");
         UsernamePasswordAuthenticationToken authenticationToken =
                 new UsernamePasswordAuthenticationToken(employeeRegistration, password);
-        log.info("Principal in authenticationToken is  : {} and it its authentication status is {}",authenticationToken.getPrincipal(), authenticationToken.isAuthenticated());
-=======
-//        log.info("AuthenticationManager should be instantiated to {}",authenticationManager.toString());
-        String employeeRegistration = request.getParameter("employeeRegistration");
-        String password = request.getParameter("password");
-//        log.info("Employee registration {} and its password is {}",employeeRegistration, password);
-//        log.info("Step 1 : creating an authenticationToken");
-        UsernamePasswordAuthenticationToken authenticationToken =
-                new UsernamePasswordAuthenticationToken(employeeRegistration, password);
-//        log.info("Principal in authenticationToken is  : {} and it its authentication status is {}",authenticationToken.getPrincipal(), authenticationToken.isAuthenticated());
->>>>>>> 6afa36ac9f5b46aced61fae15cf841e45e0421cf
+        SL4JLogger.getLogger().info("Principal in authenticationToken is  : {} and it its authentication status is {}",authenticationToken.getPrincipal(), authenticationToken.isAuthenticated());
         return   authenticationManager.authenticate(authenticationToken);
     }
 

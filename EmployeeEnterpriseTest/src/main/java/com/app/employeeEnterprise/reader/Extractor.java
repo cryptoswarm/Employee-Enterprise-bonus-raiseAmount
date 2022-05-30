@@ -3,7 +3,7 @@ package com.app.employeeEnterprise.reader;
 import com.app.employeeEnterprise.calculator.BonusSalaryRaise;
 import com.app.employeeEnterprise.model.IEmployee;
 import com.app.employeeEnterprise.enterprise.IEnterprise;
-import com.app.employeeEnterprise.manger.ICreator;
+import com.app.employeeEnterprise.manager.ICreator;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

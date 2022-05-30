@@ -1,5 +1,6 @@
 package com.app.employeeEnterprise.filter;
 
+import com.app.employeeEnterprise.logging.SL4JLogger;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;
@@ -29,7 +30,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 //every request that comes to our app will be intercepted
 //This filter needs to be added in our configuration
 @Slf4j
-public class CutomAuthorizationFilter extends OncePerRequestFilter {
+public class CustomAuthorizationFilter extends OncePerRequestFilter {
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
@@ -59,11 +60,8 @@ public class CutomAuthorizationFilter extends OncePerRequestFilter {
                     filterChain.doFilter(request, response);
                 }catch (Exception ex)
                 {
-<<<<<<< HEAD
-                    log.error("Error logging in: {}",ex.getMessage());
-=======
-//                    log.error("Error logging in: {}",ex.getMessage());
->>>>>>> 6afa36ac9f5b46aced61fae15cf841e45e0421cf
+
+                    SL4JLogger.getLogger().error("Error logging in: {}",ex.getMessage());
                     response.setHeader("error", ex.getMessage());
                     response.setStatus(FORBIDDEN.value());
                     //response.sendError(FORBIDDEN.value());
