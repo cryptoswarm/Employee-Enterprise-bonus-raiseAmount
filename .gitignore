@@ -15,7 +15,7 @@
 # Mac
 .DS_Store
 
-.idea
+.idea/
 *.zip
 *.txt
 
@@ -23,3 +23,4 @@
 log/
 target/
 demo
+EmployeeEnterpriseTest/src/main/resources
