@@ -1,7 +1,8 @@
 package com.app.employeeEnterprise.security;
 
-import com.app.employeeEnterprise.filter.CutomAuthenticationFilter;
-import com.app.employeeEnterprise.filter.CutomAuthorizationFilter;
+import com.app.employeeEnterprise.filter.CustomAuthenticationFilter;
+import com.app.employeeEnterprise.filter.CustomAuthorizationFilter;
+import com.app.employeeEnterprise.logging.SL4JLogger;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -36,11 +37,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-<<<<<<< HEAD
-        log.info("AuthenticationManagerBuilder needs userDetailsService {} and bCryptPasswordEncoder {}",userDetailsService, bCryptPasswordEncoder );
-=======
-//        log.info("AuthenticationManagerBuilder needs userDetailsService {} and bCryptPasswordEncoder {}",userDetailsService, bCryptPasswordEncoder );
->>>>>>> 6afa36ac9f5b46aced61fae15cf841e45e0421cf
+        SL4JLogger.getLogger().info("AuthenticationManagerBuilder needs userDetailsService {} and bCryptPasswordEncoder {}",userDetailsService, bCryptPasswordEncoder );
         auth.userDetailsService(userDetailsService).passwordEncoder(bCryptPasswordEncoder);
     }
 
@@ -52,8 +49,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         /**A way to customise the login url **/
-        CutomAuthenticationFilter cutomAuthenticationFilter = new CutomAuthenticationFilter(authenticationManagerBean());
-        cutomAuthenticationFilter.setFilterProcessesUrl("/api/login");
+        CustomAuthenticationFilter customAuthenticationFilter = new CustomAuthenticationFilter(authenticationManagerBean());
+        customAuthenticationFilter.setFilterProcessesUrl("/api/login");
         http.csrf().disable();
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         //http.authorizeRequests().antMatchers("/login").permitAll();
@@ -63,8 +60,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         //http.authorizeRequests().anyRequest().permitAll();
         http.authorizeRequests().anyRequest().authenticated();
         //http.addFilter(new CutomAuthenticationFilter(authenticationManagerBean()));
-        http.addFilter(cutomAuthenticationFilter);
-        http.addFilterBefore(new CutomAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
+        http.addFilter(customAuthenticationFilter);
+        http.addFilterBefore(new CustomAuthorizationFilter(), UsernamePasswordAuthenticationFilter.class);
 
     }
 

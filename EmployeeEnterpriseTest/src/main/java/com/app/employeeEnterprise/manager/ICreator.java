@@ -1,4 +1,4 @@
-package com.app.employeeEnterprise.manger;
+package com.app.employeeEnterprise.manager;
 
 import com.app.employeeEnterprise.model.Employee;
 
