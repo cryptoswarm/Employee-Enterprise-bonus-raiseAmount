@@ -59,7 +59,11 @@ public class CutomAuthorizationFilter extends OncePerRequestFilter {
                     filterChain.doFilter(request, response);
                 }catch (Exception ex)
                 {
+<<<<<<< HEAD
                     log.error("Error logging in: {}",ex.getMessage());
+=======
+//                    log.error("Error logging in: {}",ex.getMessage());
+>>>>>>> 6afa36ac9f5b46aced61fae15cf841e45e0421cf
                     response.setHeader("error", ex.getMessage());
                     response.setStatus(FORBIDDEN.value());
                     //response.sendError(FORBIDDEN.value());

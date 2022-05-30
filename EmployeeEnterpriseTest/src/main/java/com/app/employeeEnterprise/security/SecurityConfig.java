@@ -36,7 +36,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+<<<<<<< HEAD
         log.info("AuthenticationManagerBuilder needs userDetailsService {} and bCryptPasswordEncoder {}",userDetailsService, bCryptPasswordEncoder );
+=======
+//        log.info("AuthenticationManagerBuilder needs userDetailsService {} and bCryptPasswordEncoder {}",userDetailsService, bCryptPasswordEncoder );
+>>>>>>> 6afa36ac9f5b46aced61fae15cf841e45e0421cf
         auth.userDetailsService(userDetailsService).passwordEncoder(bCryptPasswordEncoder);
     }
 

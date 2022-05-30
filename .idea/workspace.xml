@@ -251,7 +251,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/EmployeeEnterpriseTest/src/main/java/com/app/employeeEnterprise/security/SecurityConfig.java</url>
           <line>68</line>
-          <properties class="com.app.employeeEnterprise.security.SecurityConfig" method="authenticationManagerBean" />
+          <properties class="com.app.employeeEnterprise.security.SecurityConfig" />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

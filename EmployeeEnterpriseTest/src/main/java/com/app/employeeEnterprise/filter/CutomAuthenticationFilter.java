@@ -37,6 +37,7 @@ public class CutomAuthenticationFilter extends UsernamePasswordAuthenticationFil
 
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
+<<<<<<< HEAD
         log.info("AuthenticationManager should be instantiated to {}",authenticationManager.toString());
         String employeeRegistration = request.getParameter("employeeRegistration");
         String password = request.getParameter("password");
@@ -45,6 +46,16 @@ public class CutomAuthenticationFilter extends UsernamePasswordAuthenticationFil
         UsernamePasswordAuthenticationToken authenticationToken =
                 new UsernamePasswordAuthenticationToken(employeeRegistration, password);
         log.info("Principal in authenticationToken is  : {} and it its authentication status is {}",authenticationToken.getPrincipal(), authenticationToken.isAuthenticated());
+=======
+//        log.info("AuthenticationManager should be instantiated to {}",authenticationManager.toString());
+        String employeeRegistration = request.getParameter("employeeRegistration");
+        String password = request.getParameter("password");
+//        log.info("Employee registration {} and its password is {}",employeeRegistration, password);
+//        log.info("Step 1 : creating an authenticationToken");
+        UsernamePasswordAuthenticationToken authenticationToken =
+                new UsernamePasswordAuthenticationToken(employeeRegistration, password);
+//        log.info("Principal in authenticationToken is  : {} and it its authentication status is {}",authenticationToken.getPrincipal(), authenticationToken.isAuthenticated());
+>>>>>>> 6afa36ac9f5b46aced61fae15cf841e45e0421cf
         return   authenticationManager.authenticate(authenticationToken);
     }
 
