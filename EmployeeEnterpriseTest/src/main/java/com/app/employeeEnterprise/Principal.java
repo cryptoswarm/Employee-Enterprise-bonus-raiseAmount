@@ -1,5 +1,7 @@
 package com.app.employeeEnterprise;
 
+import com.app.employeeEnterprise.service.EmployeeService;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -18,18 +20,18 @@ public class Principal {
         return new BCryptPasswordEncoder();
     }
 
-//    @Bean
-//    CommandLineRunner run(EmployeeService employeeService)
-//    {
-//        return  args -> {
+    @Bean
+    CommandLineRunner run(EmployeeService employeeService)
+    {
+        return  args -> {
 //            employeeService.saveRole(new Role(null, "ROLE_USER"));
 //            employeeService.saveRole(new Role(null, "ROLE_MANAGER"));
 //            employeeService.saveRole(new Role(null, "ROLE_ADMIN"));
 //            employeeService.saveRole(new Role(null, "ROLE_SUPER_ADMIN"));
-//
-//            employeeService.saveEmployee(new Employee("SAFM11",
-//                    "SAF",
-//                    "mok",
+
+//            employeeService.saveEmployee(new Employee("SAFM14",
+//                    "SAFMOK",
+//                    "mokSAF",
 //                    3,
 //                    2000,
 //                    'P',
@@ -55,8 +57,8 @@ public class Principal {
 //                    1000,
 //                    'P',
 //                    "mich19mich"));
-//
-//            employeeService.addRoleToEmployee("SAFM11", "ROLE_USER");
+
+//            employeeService.addRoleToEmployee("SAFM14", "ROLE_USER");
 //            employeeService.addRoleToEmployee("SAFM11", "ROLE_MANAGER");
 //            employeeService.addRoleToEmployee("SAFM11", "ROLE_ADMIN");
 //            employeeService.addRoleToEmployee("SAFM11", "ROLE_SUPER_ADMIN");
@@ -68,6 +70,6 @@ public class Principal {
 //
 //            employeeService.addRoleToEmployee("MICH19", "ROLE_USER");
 //            employeeService.addRoleToEmployee("MICH19", "ROLE_ADMIN");
-//        };
-//    }
+        };
+    }
 }
