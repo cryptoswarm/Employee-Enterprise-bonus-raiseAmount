@@ -1,9 +1,11 @@
 package com.app.employeeEnterprise.helpers;
 
+import com.app.employeeEnterprise.constantes.Constante;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Checker implements IChecker {
+public class UserOperations implements IUserOperations {
 
     /**
      * Ask for employe registration

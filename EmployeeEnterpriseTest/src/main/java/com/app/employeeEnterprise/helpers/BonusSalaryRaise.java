@@ -1,4 +1,4 @@
-package com.app.employeeEnterprise.calculator;
+package com.app.employeeEnterprise.helpers;
 
 public class BonusSalaryRaise {
 

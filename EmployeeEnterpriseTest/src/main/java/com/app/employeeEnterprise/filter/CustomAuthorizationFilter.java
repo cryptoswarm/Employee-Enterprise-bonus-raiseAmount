@@ -69,7 +69,6 @@ public class CustomAuthorizationFilter extends OncePerRequestFilter {
                     error.put("error_message", ex.getMessage());
                     response.setContentType(APPLICATION_JSON_VALUE);
                     new ObjectMapper().writeValue(response.getOutputStream(), error);
-
                 }
             }else {
                 filterChain.doFilter(request, response);

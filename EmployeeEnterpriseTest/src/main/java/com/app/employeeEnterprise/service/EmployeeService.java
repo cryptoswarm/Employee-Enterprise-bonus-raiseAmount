@@ -53,7 +53,6 @@ public class EmployeeService implements IEmployeeService, UserDetailsService {
         });
 
         return new User(employee.getEmployeeRegistration(), employee.getPassword(), authorities);
-
     }
 
     @Override

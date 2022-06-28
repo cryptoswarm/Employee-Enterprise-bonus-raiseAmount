@@ -1,6 +1,6 @@
 package com.app.employeeEnterprise.reader;
 
-import com.app.employeeEnterprise.calculator.BonusSalaryRaise;
+import com.app.employeeEnterprise.helpers.BonusSalaryRaise;
 import com.app.employeeEnterprise.model.IEmployee;
 import com.app.employeeEnterprise.enterprise.IEnterprise;
 import com.app.employeeEnterprise.manager.ICreator;
