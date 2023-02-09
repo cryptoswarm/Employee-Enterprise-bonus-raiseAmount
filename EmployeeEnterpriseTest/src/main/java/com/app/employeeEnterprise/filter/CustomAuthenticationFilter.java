@@ -4,6 +4,7 @@ import com.app.employeeEnterprise.logging.SL4JLogger;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -25,6 +26,7 @@ import java.util.stream.Collectors;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
+@Slf4j
 public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
     private final AuthenticationManager authenticationManager;
@@ -63,10 +65,9 @@ public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFi
      * @param chain
      * @param authResult
      * @throws IOException
-     * @throws ServletException
      */
     @Override
-    protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult) throws IOException, ServletException {
+    protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult) throws IOException {
         User user = (User)authResult.getPrincipal(); // principal is the user that has been authenticated
         Algorithm algorithm = Algorithm.HMAC256("secret".getBytes()); // do not do this in production
         String access_token = JWT.create()

@@ -1,5 +1,9 @@
 package com.app.employeeEnterprise.service;
 
+import com.app.employeeEnterprise.dtos.EmployeeDto;
+import com.app.employeeEnterprise.dtos.RoleDto;
+import com.app.employeeEnterprise.helpers.EmployeeMapper;
+import com.app.employeeEnterprise.helpers.RoleMapper;
 import com.app.employeeEnterprise.logging.SL4JLogger;
 import com.app.employeeEnterprise.model.Employee;
 import com.app.employeeEnterprise.model.Role;
@@ -20,14 +24,14 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-@Service @Transactional @Slf4j
+@Service
+@Transactional
+@Slf4j
 public class EmployeeService implements IEmployeeService, UserDetailsService {
 
     private final EmployeeRepository employeeRepository;
     private final RoleRepository roleRepository;
     private final PasswordEncoder passwordEncoder;
-
-
 
     @Autowired
     public EmployeeService(EmployeeRepository employeeRepository, RoleRepository roleRepository, PasswordEncoder passwordEncoder) {
@@ -45,33 +49,28 @@ public class EmployeeService implements IEmployeeService, UserDetailsService {
             SL4JLogger.getLogger().error("loadUserByUsername({}) method returns : Employee not found in the database",employeeRegistration);
             throw new UsernameNotFoundException("Employee not found in the database");
         }else {
-            SL4JLogger.getLogger().info("loadUserByUsername({}) method returns : employee {} {} found in the database",employeeRegistration, employee.getEmployeeLastName(), employee.getEmployeeFirstName());
+            SL4JLogger.getLogger().info("loadUserByUsername({}) method returns : employee {} {} found in the database",employeeRegistration, employee.getLastName(), employee.getLastName());
         }
         Collection<SimpleGrantedAuthority> authorities = new ArrayList<>();
         employee.getRoles().forEach(role -> {
                 authorities.add( new SimpleGrantedAuthority(role.getRoleName()));
         });
 
-        return new User(employee.getEmployeeRegistration(), employee.getPassword(), authorities);
+        return new User(employee.getRegistration(), employee.getPassword(), authorities);
     }
 
     @Override
     public Employee saveEmployee(Employee employee) {
-        SL4JLogger.getLogger().info("Saving employee {} to the database", employee.getEmployeeFirstName());
+        SL4JLogger.getLogger().info("Saving employee {} to the database", employee.getFirstName());
         employee.setPassword(passwordEncoder.encode(employee.getPassword()));
         return employeeRepository.save(employee);
     }
 
-    @Override
-    public Role saveRole(Role role) {
-        SL4JLogger.getLogger().info("Saving role {} to the database", role.getRoleName());
-        return roleRepository.save(role);
-    }
 
     @Override
     public void addRoleToEmployee(String employeeRegistration, String roleName) {
         Employee employee = employeeRepository.findByEmployeeRegistration(employeeRegistration);
-        SL4JLogger.getLogger().info("Adding role  {} to employee {} in the database", roleName, employee.getEmployeeLastName());
+        SL4JLogger.getLogger().info("Adding role  {} to employee {} in the database", roleName, employee.getLastName());
         Role role = roleRepository.findByRoleName(roleName);
         employee.getRoles().add(role);
     }
@@ -80,13 +79,24 @@ public class EmployeeService implements IEmployeeService, UserDetailsService {
     public Employee getEmployee(String employeeRegistration) {
 
         Employee employee = employeeRepository.findByEmployeeRegistration(employeeRegistration);
-        SL4JLogger.getLogger().info("Fetching employee {} from  the database", employee.getEmployeeLastName());
+        SL4JLogger.getLogger().info("Fetching employee {} from  the database", employee.getLastName());
         return employee;
     }
 
     @Override
-    public List<Employee> getEmployees() {
+    public List<RoleDto> getEmployeeRoles(String employeeRegistration) {
+
+        Employee employee = employeeRepository.findByEmployeeRegistration(employeeRegistration);
+        SL4JLogger.getLogger().info("Fetching employee {} roles", employee.getLastName());
+
+        return RoleMapper.INSTANCE.employeesRolesToEmployeesRoleDto(employee.getRoles());
+    }
+
+    @Override
+    public List<EmployeeDto> getEmployees() {
         SL4JLogger.getLogger().info("Fetching all employees from  the database");
-        return employeeRepository.findAll();
+        var employees = employeeRepository.findAll();
+
+        return EmployeeMapper.INSTANCE.employeesToEmployeesDto(employees);
     }
 }

@@ -1,6 +1,10 @@
-package com.app.employeeEnterprise;
+package com.app.employeeEnterprise;//package com.app.employeeEnterprise;
 
+import com.app.employeeEnterprise.dtos.RoleDto;
+import com.app.employeeEnterprise.model.Employee;
+import com.app.employeeEnterprise.model.Role;
 import com.app.employeeEnterprise.service.EmployeeService;
+import com.app.employeeEnterprise.service.RoleService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,55 +25,60 @@ public class Principal {
     }
 
     @Bean
-    CommandLineRunner run(EmployeeService employeeService)
+    CommandLineRunner run(EmployeeService employeeService, RoleService roleService)
     {
         return  args -> {
-//            employeeService.saveRole(new Role(null, "ROLE_USER"));
-//            employeeService.saveRole(new Role(null, "ROLE_MANAGER"));
-//            employeeService.saveRole(new Role(null, "ROLE_ADMIN"));
-//            employeeService.saveRole(new Role(null, "ROLE_SUPER_ADMIN"));
+            roleService.saveRole(new RoleDto(null, "ROLE_USER"));
+            roleService.saveRole(new RoleDto(null, "ROLE_MANAGER"));
+            roleService.saveRole(new RoleDto(null, "ROLE_ADMIN"));
+            roleService.saveRole(new RoleDto(null, "ROLE_SUPER_ADMIN"));
 
-//            employeeService.saveEmployee(new Employee("SAFM14",
-//                    "SAFMOK",
-//                    "mokSAF",
-//                    3,
-//                    2000,
-//                    'P',
-//                    "safm11safm"));
-//            employeeService.saveEmployee(new Employee("BOUP07",
-//                    "BOU",
-//                    "pass",
-//                    2,
-//                    1200,
-//                    'N',
-//                    "boup07boup"));
-//            employeeService.saveEmployee(new Employee("TIBO89",
-//                    "TIBO",
-//                    "SUZ",
-//                    1,
-//                    1000,
-//                    'A',
-//                    "tib089tib"));
-//            employeeService.saveEmployee(new Employee("MICH19",
-//                    "MICH",
-//                    "BAMBOU",
-//                    1,
-//                    1000,
-//                    'P',
-//                    "mich19mich"));
+            employeeService.saveEmployee(new Employee(
+                    "safir",
+                    "mokhtar",
+                    3,
+                    2000,
+                    'P'));
+            employeeService.saveEmployee(new Employee(
+                    "MICH",
+                    "BAMBOU",
+                    1,
+                    1000,
+                    'P'));
 
-//            employeeService.addRoleToEmployee("SAFM14", "ROLE_USER");
-//            employeeService.addRoleToEmployee("SAFM11", "ROLE_MANAGER");
-//            employeeService.addRoleToEmployee("SAFM11", "ROLE_ADMIN");
-//            employeeService.addRoleToEmployee("SAFM11", "ROLE_SUPER_ADMIN");
-//
-//            employeeService.addRoleToEmployee("BOUP07", "ROLE_USER");
-//
-//            employeeService.addRoleToEmployee("TIBO89", "ROLE_USER");
-//            employeeService.addRoleToEmployee("TIBO89", "ROLE_MANAGER");
-//
-//            employeeService.addRoleToEmployee("MICH19", "ROLE_USER");
-//            employeeService.addRoleToEmployee("MICH19", "ROLE_ADMIN");
+            employeeService.addRoleToEmployee("safm1", "ROLE_USER");
+            employeeService.addRoleToEmployee("safm1", "ROLE_MANAGER");
+            employeeService.addRoleToEmployee("safm1", "ROLE_ADMIN");
+            employeeService.addRoleToEmployee("safm1", "ROLE_SUPER_ADMIN");
+
+            employeeService.addRoleToEmployee("micb2", "ROLE_USER");
+
+            employeeService.addRoleToEmployee("micb2", "ROLE_USER");
+            employeeService.addRoleToEmployee("micb2", "ROLE_MANAGER");
+
+            employeeService.addRoleToEmployee("micb2", "ROLE_USER");
+            employeeService.addRoleToEmployee("micb2", "ROLE_ADMIN");
         };
     }
 }
+
+
+//import java.util.*;
+//import java.util.stream.Collectors;
+//
+//public class Principal {
+//
+//    public static int[] count(String[] words){
+//         return Arrays.stream(words).collect(Collectors.groupingBy(e -> e, Collectors.counting()))
+//                        .values()
+//                        .stream()
+//                        .mapToInt(Long::intValue).toArray();
+//    }
+//    public static  void main (String[] args){
+//
+//        int[] results = count(new String[]{"one", "two", "three", "four", "one"});
+//        for (int v: results) {
+//            System.out.println(v);
+//        }
+//    }
+//}

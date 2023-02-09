@@ -1,24 +1,24 @@
 package com.app.employeeEnterprise.enterprise;
 
-import com.app.employeeEnterprise.model.IEmployee;
+import com.app.employeeEnterprise.model.Employee;
 
 import java.util.ArrayList;
 
 public class Enterprise implements IEnterprise{
 
-    private final ArrayList<IEmployee> employees;
+    private final ArrayList<Employee> employees;
 
     public Enterprise(){
 
         employees = new ArrayList<>();
     }
 
-    public  void addEmployee(IEmployee anEmployee){
+    public  void addEmployee(Employee anEmployee){
 
         employees.add(anEmployee);
     }
 
-    public ArrayList<IEmployee> getEmployees() {
+    public ArrayList<Employee> getEmployees() {
 
         return employees;
     }

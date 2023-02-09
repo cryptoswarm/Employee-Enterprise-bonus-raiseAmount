@@ -1,13 +1,12 @@
 package com.app.employeeEnterprise.writer;
 
-import com.app.employeeEnterprise.model.IEmployee;
+import com.app.employeeEnterprise.model.Employee;
 import com.app.employeeEnterprise.enterprise.IEnterprise;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 
 public class Saver implements ISaver{
-
 
     @Override
     public void saveEmployees(IEnterprise enterprise, String fileName) {
@@ -16,12 +15,12 @@ public class Saver implements ISaver{
             Writer writer = new BufferedWriter(new OutputStreamWriter(
                     new FileOutputStream(fileName, true), StandardCharsets.UTF_8));
 
-            for (IEmployee employee : enterprise.getEmployees()) {
+            for (Employee employee : enterprise.getEmployees()) {
                 writer.write("\n");
-                String registration = employee.getEmployeeRegistration();
-                String lastName = employee.getEmployeeLastName();
-                String firstName = employee.getEmployeeFirstName();
-                int echelon = employee.getEmployeeEchelon();
+                String registration = employee.getRegistration();
+                String lastName = employee.getLastName();
+                String firstName = employee.getFirstName();
+                int echelon = employee.getEchelon();
                 double currentSalary = employee.getNewSalary();
                 String performanceDesc = employee.getPerformanceDescription();
                 float bonusRate = employee.getBonusRate();
