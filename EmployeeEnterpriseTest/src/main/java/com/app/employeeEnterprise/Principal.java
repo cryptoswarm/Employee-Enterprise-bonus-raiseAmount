@@ -1,8 +1,9 @@
-package com.app.employeeEnterprise;//package com.app.employeeEnterprise;
+package com.app.employeeEnterprise;
 
 import com.app.employeeEnterprise.dtos.RoleDto;
+import com.app.employeeEnterprise.model.Account;
 import com.app.employeeEnterprise.model.Employee;
-import com.app.employeeEnterprise.model.Role;
+import com.app.employeeEnterprise.service.AccountService;
 import com.app.employeeEnterprise.service.EmployeeService;
 import com.app.employeeEnterprise.service.RoleService;
 import org.springframework.boot.CommandLineRunner;
@@ -25,7 +26,9 @@ public class Principal {
     }
 
     @Bean
-    CommandLineRunner run(EmployeeService employeeService, RoleService roleService)
+    CommandLineRunner run(EmployeeService employeeService,
+                          RoleService roleService,
+                          AccountService accountService)
     {
         return  args -> {
             roleService.saveRole(new RoleDto(null, "ROLE_USER"));
@@ -36,28 +39,31 @@ public class Principal {
             employeeService.saveEmployee(new Employee(
                     "safir",
                     "mokhtar",
-                    3,
-                    2000,
-                    'P'));
+                    "safm1"));
             employeeService.saveEmployee(new Employee(
                     "MICH",
                     "BAMBOU",
-                    1,
-                    1000,
-                    'P'));
+                "micb1"));
 
             employeeService.addRoleToEmployee("safm1", "ROLE_USER");
             employeeService.addRoleToEmployee("safm1", "ROLE_MANAGER");
             employeeService.addRoleToEmployee("safm1", "ROLE_ADMIN");
             employeeService.addRoleToEmployee("safm1", "ROLE_SUPER_ADMIN");
 
-            employeeService.addRoleToEmployee("micb2", "ROLE_USER");
+            employeeService.addRoleToEmployee("micb1", "ROLE_USER");
 
-            employeeService.addRoleToEmployee("micb2", "ROLE_USER");
-            employeeService.addRoleToEmployee("micb2", "ROLE_MANAGER");
+            employeeService.addRoleToEmployee("micb1", "ROLE_USER");
+            employeeService.addRoleToEmployee("micb1", "ROLE_MANAGER");
 
-            employeeService.addRoleToEmployee("micb2", "ROLE_USER");
-            employeeService.addRoleToEmployee("micb2", "ROLE_ADMIN");
+            employeeService.addRoleToEmployee("micb1", "ROLE_USER");
+            employeeService.addRoleToEmployee("micb1", "ROLE_ADMIN");
+
+            var employee1 = employeeService.getEmployee("safm1");
+            accountService.saveAccount(new Account(employee1.getId(), employee1.getRegistration()));
+
+            var employee2 = employeeService.getEmployee("micb1");
+            accountService.saveAccount(new Account(employee2.getId(), employee2.getRegistration()));
+
         };
     }
 }
